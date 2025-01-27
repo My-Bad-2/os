@@ -1,0 +1,1 @@
+klibc_sources += files('memcopy.cpp')

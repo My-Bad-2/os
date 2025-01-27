@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: ^"(kernel|klibc|internal)/
+    Priority: 2
+    SortPriority: 2
+    CaseSensitive: false
+  - Regex: ^(<|"(kernel)/)
+    Priority: 3
+    SortPriority: 3
+    CaseSensitive: false
+  - Regex: .*
+    Priority: 5
+    SortPriority: 5
+    CaseSensitive: false
+  - Regex: ^(<|"(klibc)/)
+    Priority: 4
+    CaseSensitive: false
+    SortPriority: 4

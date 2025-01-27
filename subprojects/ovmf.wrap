@@ -1,0 +1,8 @@
+[wrap-git]
+url = https://github.com/retrage/edk2-nightly.git
+revision = HEAD
+depth = 1
+patch_directory = ovmf
+
+[provide]
+ovmf = ovmf_dep
