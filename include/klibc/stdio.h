@@ -23,8 +23,8 @@ extern FILE *const stdin;
 extern FILE *const stdout;
 extern FILE *const stderr;
 
-int ferror(FILE *stream) __WARN_UNUSED_RESULT __NONNULL((1));
-int feof(FILE *stream) __WARN_UNUSED_RESULT __NONNULL((1));
+bool ferror(FILE *stream) __WARN_UNUSED_RESULT __NONNULL((1));
+bool feof(FILE *stream) __WARN_UNUSED_RESULT __NONNULL((1));
 size_t fwrite(const void *restrict ptr, size_t size, size_t nmemb,
               FILE *restrict stream) __NONNULL((4));
 

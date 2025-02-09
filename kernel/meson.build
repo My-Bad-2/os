@@ -1,4 +1,4 @@
-kernel_sources = files()
+kernel_sources = files('main.cpp')
 
 kernel = executable(
   'kernel',

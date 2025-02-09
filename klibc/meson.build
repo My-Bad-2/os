@@ -3,6 +3,7 @@ klibc_sources = files('ctype.cpp')
 subdir('internal')
 subdir('string')
 subdir('stdlib')
+subdir('stdio')
 
 clangtidy_files += klibc_sources
 
